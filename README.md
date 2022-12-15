@@ -4,6 +4,9 @@ In this tutorial we are going to convert the `ac file` into a `lib file`.
 
 To generate the `ac file`, we will first need to use the `RESP` approach. Then, we will use the `prepgen` program from AMBER to generate the `prepi file`. In this step, we will also need to prepare the `main chain file` manually, which identifies the main atoms or backbones of a molecule.
 
+<img src="https://github.com/ade-wagimon/Antechamber-File-ac-to-lib-File-/blob/main/figure/14L_resp.png" width=80% height=80%>
+
+
 The `main chain file` should include the following information:
 
     **MAIN_CHAIN:** the names of the backbone atoms
