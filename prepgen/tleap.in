@@ -1,0 +1,9 @@
+source leaprc.gaff
+loadAmberParams 14l.frcmod1
+loadAmberParams 14l.frcmod2
+loadamberprep 14l.prep
+set 14L head 14L.1.C12
+saveoff 14L 14L.lib
+quit
+
+
